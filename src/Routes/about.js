@@ -5,5 +5,4 @@ function about() {
     <div className='about'>about</div>
   )
 }
-
 export default about

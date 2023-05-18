@@ -22,6 +22,7 @@ function SliderComponent() {
         <div className='three-dots'><NavLink to="/contact" activeClassName="active">
           <button className="hire-btn">HIRE US</button>
         </NavLink></div>
+        
     </div>
   )
 }
