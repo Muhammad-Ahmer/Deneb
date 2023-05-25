@@ -1,11 +1,12 @@
 import React from 'react';
-import './SliderComponent.css';
+import './projectSlider.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { NavLink } from 'react-router-dom';
 
-function SliderComponent() {
+
+function projectSlider() {
   const settings = {
     dots: true,
     infinite: true,
@@ -16,7 +17,7 @@ function SliderComponent() {
 
   return (
     <div className='slider'>
-      <img className='pic' src={require('../shape_1.db11f05a.png')} alt="" />
+      {/* <img className='pic' src={require('../shape_1.db11f05a.png')} alt="" /> */}
     <Slider className='container' {...settings} >
 <div>
     <div  className='SliderComponent'>
@@ -56,7 +57,7 @@ function SliderComponent() {
         </div>
     </div>
     </div>
-
+    
     <div  >
     <div className='SliderComponent'>
         <div className='fix-content'>
@@ -80,4 +81,4 @@ function SliderComponent() {
 
   );
 }
-export default SliderComponent 
+export default projectSlider 

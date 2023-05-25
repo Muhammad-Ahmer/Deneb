@@ -3,8 +3,6 @@ import './header.css';
 import { NavLink } from 'react-router-dom';
 function Header() {
   return (
- 
-    
     <header className="header">
       <div className="logo-container">
       <NavLink to="/" exact>
